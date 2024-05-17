@@ -1,8 +1,8 @@
 {
 	"name": "wardrobe",
-	"version": "2021.07.27",
-	"description": "A wardrobe of assets for Skyra",
-	"author": "Skyra Project",
+	"version": "2024.05.17",
+	"description": "A wardrobe of assets for WolStar",
+	"author": "WolfStar Project",
 	"license": "CC BY-NC-SA 4.0",
 	"private": true,
 	"scripts": {
@@ -22,7 +22,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/skyra-project/wardrobe.git"
+		"url": "git+https://github.com/wolfstar-project/wardrobe.git"
 	},
 	"engines": {
 		"node": ">=16",

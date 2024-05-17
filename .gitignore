@@ -1,12 +1,10 @@
-# Node modules directory
+# Ignore a blackhole and the folder for development
 node_modules/
-
-# Visual Studio Code and IntelliJ IDEA directories
 .vs/
 .idea/
 *.iml
 
-# Environment variables files
+# Environment variables
 .DS_Store
 .env.local
 .env.development.local
@@ -17,22 +15,9 @@ node_modules/
 *.heapsnapshot
 *.log
 
-# Directories for certbot
-nginxs/cdn/data/certbot/conf/
-nginxs/cdn/data/certbot/www/
-
 # Ignore package locks
 package-lock.json
 
 # Yarn files
 .yarn/install-state.gz
 .yarn/build-state.yml
-.pnp.*
-
-# Ignore OS generated files
-Thumbs.db
-.DS_Store
-
-# Ignore build directories
-dist/
-build/
