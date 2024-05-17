@@ -21,9 +21,6 @@ node_modules/
 nginxs/cdn/data/certbot/conf/
 nginxs/cdn/data/certbot/www/
 
-# Ignore .htpasswd file if sensitive
-nginxs/cdn/.htpasswd
-
 # Ignore package locks
 package-lock.json
 
