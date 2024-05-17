@@ -1,0 +1,41 @@
+# Node modules directory
+node_modules/
+
+# Visual Studio Code and IntelliJ IDEA directories
+.vs/
+.idea/
+*.iml
+
+# Environment variables files
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore heapsnapshot and log files
+*.heapsnapshot
+*.log
+
+# Directories for certbot
+nginxs/cdn/data/certbot/conf/
+nginxs/cdn/data/certbot/www/
+
+# Ignore .htpasswd file if sensitive
+nginxs/cdn/.htpasswd
+
+# Ignore package locks
+package-lock.json
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
+.pnp.*
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
+
+# Ignore build directories
+dist/
+build/
