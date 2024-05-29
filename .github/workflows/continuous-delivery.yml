@@ -1,12 +1,17 @@
 name: Continuous Delivery
 
-on:
+on: 
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - 'protos/*'
       - '.github/workflows/continuous-delivery.yml'
+ 
+
 
 jobs:
   PublishProtos:
