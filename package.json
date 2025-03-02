@@ -42,9 +42,9 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@4.6.0",
+	"packageManager": "yarn@4.7.0",
 	"volta": {
 		"node": "20.18.3",
-		"yarn": "4.6.0"
+		"yarn": "4.7.0"
 	}
 }
